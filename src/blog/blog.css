@@ -33,7 +33,7 @@ img {
     float: none;
     display: block;
     text-align: left;
-  }
+}
 article {
     font-family: cursive;
     text-align: justify;
@@ -41,15 +41,11 @@ article {
 }
 h1:hover, a:hover {
     background-color: turquoise;
-  }
-h4 {
+}
+h4 h5 h6{
     font-size: 20px;
 }
-h6 {
-    font-size: 20px;
-    margin-bottom: auto;
-}
-h8 {
+h7 {
 font-family: cursive;
 font-size: 25px;
 }
