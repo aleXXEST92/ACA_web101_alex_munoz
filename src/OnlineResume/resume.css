@@ -1,0 +1,95 @@
+body{
+    padding:80px 40px;
+    Background-color: plum;
+  }
+  /* .resume-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header"
+    "objective experience experience"
+    "references education certification"
+    "footer footer footer";
+    grid-gap: 10px;
+    padding: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  } */
+  .resume-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header"
+    "objective certification"
+    "experience experience"
+    "references education"
+    "footer footer"
+    ;
+    grid-gap: 10px;
+    padding: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .resume-container>div {
+    border: 1px solid blueviolet;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border-radius:18px;
+  }
+.header {
+  grid-area: header;
+  background-color: lightsteelblue;
+}
+.objective {
+  grid-area: objective;
+  background-color: lightsteelblue;
+}
+.experience {
+  grid-area: experience;
+  background-color: lightsteelblue;
+}
+.education {
+  grid-area: education;
+  background-color: lightsteelblue;
+}
+.certification {
+  grid-area: certification;
+  background-color: lightsteelblue;
+}
+.references {
+  grid-area: references;
+  background-color: lightsteelblue;
+}
+.footer {
+  grid-area: footer;
+  background-color: lightsteelblue;
+}
+h1, h4, h5, h6 {
+  font-size: 18px;
+}  
+h3 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.experience>.dates {
+  font-size: 15px;
+}
+.experience>.address{
+  font-size: 15px;
+}
+.experience>.contact {
+  font-size: 15px;
+  font-weight: bold;
+}
+.experience>p{
+  font-size: 15px;
+}
+.objective>p {
+  font-size: 15px;
+}
+.resume-container div:nth-of-type(1) {
+  color: purple
+}
