@@ -1,6 +1,7 @@
 body{
     padding:80px 40px;
-    Background-color: plum;
+    margin: 0;
+    padding: 0;
   }
   /* .resume-container {
     display: grid;
@@ -16,6 +17,12 @@ body{
     padding: 10px;
     border-radius: 10px;
   } */
+  img {
+    float: left;
+    padding-left: 300px;
+  
+    border-radius: 8px;
+  }
   .resume-container {
     display: grid;
     grid-template-columns: 25% 75%;
@@ -33,8 +40,7 @@ body{
     border-radius: 10px;
   }
   .resume-container>div {
-    border: 1px solid blueviolet;
-    text-align: center;
+    border: 3px solid rgb(224, 72, 136);
     padding: 20px 0;
     font-size: 30px;
     border-radius:18px;
@@ -42,35 +48,62 @@ body{
 .header {
   grid-area: header;
   background-color: lightsteelblue;
+  margin-right: 130px;
+  margin-left: 130px;
 }
 .objective {
   grid-area: objective;
   background-color: lightsteelblue;
+  margin-left: 130px;
 }
 .experience {
   grid-area: experience;
   background-color: lightsteelblue;
+  margin-right: 130px;
+  margin-left: 130px;
 }
 .education {
   grid-area: education;
   background-color: lightsteelblue;
+  margin-right: 130px;
 }
 .certification {
   grid-area: certification;
   background-color: lightsteelblue;
+  margin-right: 130px;
+  
 }
 .references {
   grid-area: references;
   background-color: lightsteelblue;
+  margin-left: 130px;
 }
 .footer {
   grid-area: footer;
   background-color: lightsteelblue;
 }
-h1, h4, h5, h6 {
-  font-size: 18px;
+h1 {
+  padding-left: 530px;
+  font-size: 50px;
+  color: rgb(175, 23, 117);
+}
+h2{
+  padding-left: 530px;
+  font-size: 20px;
 }  
 h3 {
+  padding-left: 15px;
+  font-size: 25px;
+  color: rgb(175, 23, 117);
+  text-decoration: underline;
+  text-decoration-color: blueviolet;
+}
+p {
+  padding-left: 15px;
+  font-size: 15px;
+}
+h5 {
+  padding-left: 15px;
   font-size: 20px;
   text-decoration: underline;
 }
@@ -91,5 +124,8 @@ h3 {
   font-size: 15px;
 }
 .resume-container div:nth-of-type(1) {
-  color: purple
+  
+}
+.experience .dates, .address, .contact {
+  padding-left: 15px;
 }
