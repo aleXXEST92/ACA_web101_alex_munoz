@@ -16,6 +16,7 @@ body{
     padding: 10px;
     border-radius: 10px;
   } */
+  
   .resume-container {
     display: grid;
     grid-template-columns: 25% 75%;
@@ -39,9 +40,14 @@ body{
     font-size: 30px;
     border-radius:18px;
   }
+img {
+  float: center;
+}
 .header {
+  
   grid-area: header;
   background-color: lightsteelblue;
+  padding-bottom: 10px;
 }
 .objective {
   grid-area: objective;
@@ -67,29 +73,50 @@ body{
   grid-area: footer;
   background-color: lightsteelblue;
 }
-h1, h4, h5, h6 {
-  font-size: 18px;
+h1 {
+  font-size: 50px;
+  font-family: Geneva;
+  color: darkorchid;
 }  
+h2 {
+  font-size: 32px;
+  text-decoration: underline;
+  color: rgb(179, 101, 153);
+}
 h3 {
-  font-size: 20px;
+  color: darkorchid;
+  font-size: 25px;
   text-decoration: underline;
 }
 .experience>.dates {
-  font-size: 15px;
+  font-size: 20px;
 }
 .experience>.address{
-  font-size: 15px;
+  font-size: 20px;
 }
 .experience>.contact {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
 }
+.header>p{
+  font-size: 18px;
+  float: right;
+}
+.img>p{
+  font-size: 23px;
+}
 .experience>p{
-  font-size: 15px;
+  font-size: 18px;
 }
 .objective>p {
-  font-size: 15px;
+  font-size: 18px;
 }
-.resume-container div:nth-of-type(1) {
-  color: purple
+.certification>p {
+  font-size: 20px;
+}
+.references>p{
+  font-size: 20px;
+}
+.education>p{
+  font-size: 20px;
 }
