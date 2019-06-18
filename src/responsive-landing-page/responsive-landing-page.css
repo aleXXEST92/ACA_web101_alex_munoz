@@ -64,7 +64,11 @@ li {
     display: none;
   }
 }
+<<<<<<< HEAD
 @media (max-width:965px) {
+=======
+@media (max-width:960px) {
+>>>>>>> AM/Media-Queries
   .top {
     display: none;
       } 
@@ -76,6 +80,7 @@ li {
 }
 .container {
   padding: 10px;
+<<<<<<< HEAD
 }
 .column {
   float: left;
@@ -84,4 +89,6 @@ li {
 .row {
   background-color: grey;
   height: 165px;
+=======
+>>>>>>> AM/Media-Queries
 }
