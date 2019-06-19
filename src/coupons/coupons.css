@@ -6,7 +6,7 @@
 body{
   height:100%;
   width: 100%;;
-  padding: 10px;
+  padding: 30px;
 }
 
 .title {
@@ -23,12 +23,22 @@ body{
 .cookie {
   grid-column: 1/2;
   grid-row: 1/2;
-  background-color: pink;
+  background-color:white;
 }
-.techfood>p {
-  font-size: 85px;
+img>cookie {
+  display: flex;
+
+}
+.techfood>h1 {
+  font-size: 80px;
   text-align: center;
   color:black;
+}
+.techfood>p {
+  font-size: 15px;
+  text-align: center;
+  color:black;
+  align-content: space-between;
 }
 .techfood {
   grid-column: 2/3;
@@ -85,12 +95,16 @@ body{
 .main1grid {
   display: grid;
   grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 100%;
+  grid-template-rows: auto;
   height: 100%;
 }
 .mango {
   grid-column: 1/2;
   background-color: blue;
+  background: url("mango.jpg.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
 }
 .junk>h1 {
   color: white;
@@ -178,5 +192,19 @@ body{
 }
 .monster {
   grid-column: 4/4;
-  background-color: darkmagenta;
+  background-color: white;
+  display: flex;
+}
+.monstergrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 70% 30%;
+}
+.mtext {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.mprice {
+  grid-column: 2/3;
+  grid-row: 2/3
 }
