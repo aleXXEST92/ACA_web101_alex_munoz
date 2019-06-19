@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height:100%;
+  width: 100%;;
+  padding: 10px;
+}
+
+.title {
+  border: 2px solid red;
+  height: 20%;
+  width: 80%;
+  display: inline-grid;
+}
+.titlegrid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 80% 20%;
+}
+.cookie {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: pink;
+}
+.techfood>p {
+  font-size: 85px;
+  text-align: center;
+  color:black;
+}
+.techfood {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: white;
+}
+.offer>p {
+  font-size: 18px;
+  align-content: space-between;
+  color:black;
+  font-family: 'Segoe UI';
+}
+.offer {
+  grid-column: 1/3;
+  grid-row: 2/2;
+  background-color:white;
+}
+.sale {
+  border: 2px solid green;
+  height: 20%;
+  width: 20%;
+  display: inline-grid;
+  float: right;
+}
+.salegrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 60% 40%;
+}
+.save>p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.save {
+  grid-row: 1/2;
+  background-color:rgb(195,49,87);
+}
+.ex>p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.ex {
+  grid-row: 2/2;
+  background-color:rgb(69,175,189);
+}
+.main {
+  border: 2px solid rgb(233, 51, 233);
+  height: 60%;
+  width: 80%;
+  display: inline-grid;
+}
+.main1grid {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 100%;
+  height: 100%;
+}
+.mango {
+  grid-column: 1/2;
+  background-color: blue;
+}
+.junk>h1 {
+  color: white;
+}
+.junk>p {
+  color:white;
+}
+.junk {
+  grid-column: 2/3;
+  background-color: rgb(69,175,189);
+}
+.cheetos {
+  grid-column: 3/3;
+  background-color: grey;
+}
+.main2grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+  height: 100%;
+}
+.tea {
+  grid-column: 1/2;
+  background-color: lightseagreen;
+}
+.nuts {
+  grid-column: 2/3;
+  background-color: peachpuff;
+}
+.yogurt {
+  grid-column: 3/4;
+  background-color: lightcyan;
+}
+.mnm {
+  grid-column: 4/4;
+  background-color: lightgreen;
+}
+.sidebar {
+  border: 2px solid blue;
+  height: 60%;
+  width: 20%;
+  float: right;
+}
+.sidebargrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(3, 1fr);
+  height: 100%;
+  width: 100%;
+}
+.wine {
+  grid-row: 1/2;
+  background-color: khaki;
+}
+.ben {
+  grid-row: 2/3;
+  background-color: royalblue;
+}
+.ramen {
+  grid-row: 3/3;
+  background-color:yellow;
+}
+.footer {
+  border: 2px solid black;
+  height: 20%;
+  width: 100%;
+  display: inline-grid;
+}
+.footergrid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+}
+.caffeine {
+  grid-column: 1/2;
+  background-color: rgb(69,175,189);
+}
+.coffee {
+  grid-column: 2/3;
+  background-color: maroon;
+}
+.cola {
+  grid-column: 3/4;
+  background-color: seagreen;
+}
+.monster {
+  grid-column: 4/4;
+  background-color: darkmagenta;
+}
