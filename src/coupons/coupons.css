@@ -99,12 +99,21 @@ img>cookie {
   height: 100%;
 }
 .mango {
-  grid-column: 1/2;
   background-color: blue;
   background: url("mango.jpg.png");
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+.mangotext>p {
+font-family: verdana;
+}
+.mangoprice {
+  font-family: verdana;
+  background-color: rgb(195,49,87);
 }
 .junk>h1 {
   color: white;
@@ -119,7 +128,19 @@ img>cookie {
 .cheetos {
   grid-column: 3/3;
   background-color: grey;
+  background: url("chips.jpg.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
 }
+.cheetos div:nth-child(4) {
+  font-size: 25px;
+}
+
+
 .main2grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
