@@ -1,178 +1,95 @@
 body{
-    padding:80px 40px;
-    margin: 0;
-    padding: 0;
-  }
-  /* .resume-container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "header header header"
-    "objective experience experience"
-    "references education certification"
-    "footer footer footer";
-    grid-gap: 10px;
-    padding: 10px;
-    padding: 10px;
-    border-radius: 10px;
-  } */
-<<<<<<< HEAD
-  
-=======
-  img {
-    float: left;
-    padding-left: 300px;
-  
-    border-radius: 8px;
-  }
->>>>>>> AM/Media-Queries
-  .resume-container {
-    display: grid;
-    grid-template-columns: 25% 75%;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "header header"
-    "objective certification"
-    "experience experience"
-    "references education"
-    "footer footer"
-    ;
-    grid-gap: 10px;
-    padding: 10px;
-    padding: 10px;
-    border-radius: 10px;
-  }
-  .resume-container>div {
-    border: 3px solid rgb(224, 72, 136);
-    padding: 20px 0;
-    font-size: 30px;
-    border-radius:18px;
-  }
-img {
-  float: center;
+  padding:80px 40px;
+  Background-color: plum;
+}
+/* .resume-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "header header header"
+  "objective experience experience"
+  "references education certification"
+  "footer footer footer";
+  grid-gap: 10px;
+  padding: 10px;
+  padding: 10px;
+  border-radius: 10px;
+} */
+.resume-container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "header header"
+  "objective certification"
+  "experience experience"
+  "references education"
+  "footer footer"
+  ;
+  grid-gap: 10px;
+  padding: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.resume-container>div {
+  border: 1px solid blueviolet;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  border-radius:18px;
 }
 .header {
-  
-  grid-area: header;
-  background-color: lightsteelblue;
-<<<<<<< HEAD
-  padding-bottom: 10px;
-=======
-  margin-right: 130px;
-  margin-left: 130px;
->>>>>>> AM/Media-Queries
+grid-area: header;
+background-color: lightsteelblue;
 }
 .objective {
-  grid-area: objective;
-  background-color: lightsteelblue;
-  margin-left: 130px;
+grid-area: objective;
+background-color: lightsteelblue;
 }
 .experience {
-  grid-area: experience;
-  background-color: lightsteelblue;
-  margin-right: 130px;
-  margin-left: 130px;
+grid-area: experience;
+background-color: lightsteelblue;
 }
 .education {
-  grid-area: education;
-  background-color: lightsteelblue;
-  margin-right: 130px;
+grid-area: education;
+background-color: lightsteelblue;
 }
 .certification {
-  grid-area: certification;
-  background-color: lightsteelblue;
-  margin-right: 130px;
-  
+grid-area: certification;
+background-color: lightsteelblue;
 }
 .references {
-  grid-area: references;
-  background-color: lightsteelblue;
-  margin-left: 130px;
+grid-area: references;
+background-color: lightsteelblue;
 }
 .footer {
-  grid-area: footer;
-  background-color: lightsteelblue;
+grid-area: footer;
+background-color: lightsteelblue;
 }
-h1 {
-<<<<<<< HEAD
-  font-size: 50px;
-  font-family: Geneva;
-  color: darkorchid;
-=======
-  padding-left: 530px;
-  font-size: 50px;
-  color: rgb(175, 23, 117);
-}
-h2{
-  padding-left: 530px;
-  font-size: 20px;
->>>>>>> AM/Media-Queries
+h1, h4, h5, h6 {
+font-size: 18px;
 }  
-h2 {
-  font-size: 32px;
-  text-decoration: underline;
-  color: rgb(179, 101, 153);
-}
 h3 {
-<<<<<<< HEAD
-  color: darkorchid;
-  font-size: 25px;
-=======
-  padding-left: 15px;
-  font-size: 25px;
-  color: rgb(175, 23, 117);
-  text-decoration: underline;
-  text-decoration-color: blueviolet;
-}
-p {
-  padding-left: 15px;
-  font-size: 15px;
-}
-h5 {
-  padding-left: 15px;
-  font-size: 20px;
->>>>>>> AM/Media-Queries
-  text-decoration: underline;
+font-size: 20px;
+text-decoration: underline;
 }
 .experience>.dates {
-  font-size: 20px;
+font-size: 15px;
 }
 .experience>.address{
-  font-size: 20px;
+font-size: 15px;
 }
 .experience>.contact {
-  font-size: 20px;
-  font-weight: bold;
-}
-.header>p{
-  font-size: 18px;
-  float: right;
-}
-.img>p{
-  font-size: 23px;
+font-size: 15px;
+font-weight: bold;
 }
 .experience>p{
-  font-size: 18px;
+font-size: 15px;
 }
 .objective>p {
-  font-size: 18px;
+font-size: 15px;
 }
-<<<<<<< HEAD
-.certification>p {
-  font-size: 20px;
-}
-.references>p{
-  font-size: 20px;
-}
-.education>p{
-  font-size: 20px;
-}
-=======
 .resume-container div:nth-of-type(1) {
-  
+color: purple
 }
-.experience .dates, .address, .contact {
-  padding-left: 15px;
-}
->>>>>>> AM/Media-Queries
