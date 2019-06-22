@@ -18,6 +18,8 @@ body{
   display: grid;
   grid-template-columns: 20% 80%;
   grid-template-rows: 80% 20%;
+  max-height: 100%;
+  max-width: 100%;
 }
 .cookie {
   grid-column: 1/2;
@@ -95,12 +97,15 @@ img>cookie {
   height: 60%;
   width: 80%;
   display: inline-grid;
+  border: 4px solid rgb(69,175,189);
 }
 .main1grid {
   display: grid;
   grid-template-columns: 30% 40% 30%;
   grid-template-rows: auto;
   height: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 .mango {
   background: url("mango.jpg.png");
@@ -111,6 +116,45 @@ img>cookie {
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   padding-bottom: 0px;
+}
+.mangotext div:nth-child(1) {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 16px;
+}
+/* .mango4 {
+  display: flex;
+  justify-content: center;
+} */
+.mangotext2 {
+  display: flex;
+  flex-direction: column;
+}
+.mangotext2 div:nth-child(1) {
+  color: white;
+  font-size: 9px;
+}
+.mangotext2 div:nth-child(2) {
+  color:white;
+  font-size: 10px;
+}
+.wrapm {
+  display: flex;
+  -ms-flex-direction: column;
+}
+.wrapm div:nth-child(1) {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: verdana;
+}
+.wrapm div:nth-child(2) {
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  font-family: verdana;
 }
 .mango div:nth-child(3) {
   font-size: 12px;
@@ -123,34 +167,19 @@ img>cookie {
   font-family: verdana;
   background-color: rgb(195,49,87); 
 }
-
-.mango p {
-  text-align: center;
-  color: white;
-  font-weight: bold;
-  font-family: verdana;
-}
-.mango p:nth-child(1) {
-  font-size: 15px;
-}
-.mango p:nth-child(2) {
-  font-size: 20px;
-}
-.mango p:nth-child(3) {
-  font-size: 10px;
-}
-.mango p:nth-child(4) {
-  font-size: 15px;
-}
-.junk p {
-  color: white;
-  font-family: verdana;
+.junk {
+  background-color:rgb(69,175,189);
 }
 .junk p:nth-child(1) {
-  color:white;
+  color: white;
   font-family: verdana;
   font-size: 30px;
+  font-weight: bold;
 }
+.junk p:nth-child(2) {
+  font-size: 15px;
+  color: white;
+})
 .junk {
   grid-column: 2/3;
   background-color: rgb(69,175,189);
@@ -213,6 +242,8 @@ img>cookie {
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 100%;
   height: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 .tea {
   grid-column: 1/2;
@@ -231,19 +262,18 @@ img>cookie {
   font-family: verdana;
   display: flex;
   align-items: flex-end;
-  padding-bottom: 0px;
 }
 .tea div:nth-child(4) {
   font-size: 20px;
   font-weight: bold;
   font-family: verdana;
   border: 4px solid gold;
-  text-align: center;
   display: flex;
   flex-direction: column;
+  align-self: flex-end;
 }
-.tea p {
-  font-size: 12px; 
+.teatext div:nth-child(2) {
+  font-size: 9px;
 }
 .nuts {
   grid-column: 2/3;
@@ -255,26 +285,75 @@ img>cookie {
   background-repeat: no-repeat;
   background-position: top;
 }
-.nuts div:nth-child(4) {
-  font-family: verdana;
-  background-color: rgb(195,49,87);
-}
-.nuts div:nth-child(5) {
+.nuts div:nth-child(3) {
   font-size: 12px;
   font-weight: bold;
   font-family: verdana;
   display: flex;
   align-items: flex-end;
 }
-.nuts p:nth-child(1) {
-  font-size: 15px;
-  color: white;
-  font-weight: bold;
+.nuts div:nth-child(4) {
+  font-family: verdana;
+  background-color: rgb(195,49,87);
 }
-.nuts p:nth-child(2) {
-  font-size: 20px;
+.nuts div:nth-child(6) {
+background-color: gold;
+}
+.nutstext div:nth-child(1) {
+  text-align: center;
   color: white;
   font-weight: bold;
+  font-family: verdana;
+  font-size: 12px;
+}
+.nutstext2 {
+  display: flex;
+  flex-direction: column;
+}
+.nutstext2 div:nth-child(1) {
+  color: white;
+  font-size: 9px;
+}
+.nutstext2 div:nth-child(2) {
+  color:white;
+  font-size: 10px;
+}
+.wrapm {
+  display: flex;
+  -ms-flex-direction: column;
+}
+.wrapm div:nth-child(1) {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: verdana;
+}
+.wrapm div:nth-child(2) {
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  font-family: verdana;
+}
+.nutsp2 p:nth-child(1) {
+  font-size:12px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: verdana;
+}
+.nutsp2 p:nth-child(2) {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: verdana;
+}
+.nutsp2 p:nth-child(3) {
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: verdana;
 }
 .yogurt {
   grid-column: 3/4;
@@ -286,6 +365,25 @@ img>cookie {
   background-repeat: no-repeat;
   background-position: top;
 }
+.yogurt div:nth-child(5) {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: verdana;
+    display: flex;
+    align-items: flex-end;
+}
+.yogurt div:nth-child(6) {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: verdana;
+  border: 4px solid gold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.yogurttext p:nth-child(2){
+  font-size: 10px;
+}
 .mnm {
   grid-column: 4/4;
   display: grid;
@@ -294,8 +392,26 @@ img>cookie {
   background: url(chocs.png);
   background-size: 40%;
   background-repeat: no-repeat;
-background-position: top;
+  background-position: top;
 }
+.mnm div:nth-child(5) {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: verdana;
+  display: flex;
+  align-items: flex-end;
+}
+.mnm div:nth-child(6) {
+  border: 3px solid gold;
+  font-size: 20px;
+  font-family: verdana;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
 .sidebar {
   height: 60%;
   width: 20%;
@@ -352,28 +468,7 @@ background-position: top;
 .ben div:nth-child(2) {
   background-color: rgb(195,49,87)
 }
-.ben p:nth-child(1) {
-  font-family: verdana;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-} 
-.ben p:nth-child(2) {
-  font-family: verdana;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-}
-.ben p:nth-child(3) {
-  font-family: verdana;
-  font-size: 10px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-}
-.ben div:nth-child(3) {
+.nutstext3 {
   font-size: 12px;
   font-weight: bold;
   font-family: verdana;
@@ -383,23 +478,61 @@ background-position: top;
 .ben div:nth-child(4) {
   background-color: gold;
 }
+.bentext div:nth-child(1) {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 12px;
+}
+.bentext2 {
+  display: flex;
+  flex-direction: column;
+}
+.bentext2 div:nth-child(1) {
+  color: white;
+  font-size: 9px;
+}
+.bentext2 div:nth-child(2) {
+  color:white;
+  font-size: 10px;
+}
+.wrapm {
+  display: flex;
+  -ms-flex-direction: column;
+}
+.wrapm div:nth-child(1) {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: verdana;
+}
+.wrapm div:nth-child(2) {
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  font-family: verdana;
+}
 .benp2 p:nth-child(1) {
-  font-size:15px;
+  font-size:12px;
   color: black;
   font-weight: bold;
   text-align: center;
+  font-family: verdana;
 }
 .benp2 p:nth-child(2) {
   font-size: 20px;
   color: black;
   font-weight: bold;
   text-align: center;
+  font-family: verdana;
 }
 .benp2 p:nth-child(3) {
   font-size: 10px;
   color: black;
   font-weight: bold;
   text-align: center;
+  font-family: verdana;
 }
 .ramen {
   grid-row: 3/3;
@@ -439,9 +572,11 @@ background-position: top;
 }
 .footer {  
   border: 5px solid rgb(69,175,189);
-  height: 20%;
+  height: 26.5%;
   width: 100%;
   display: inline-grid;
+  max-height: 100%;
+  max-width: 100%;
 }
 .footergrid {
   display: grid;
@@ -452,15 +587,49 @@ background-position: top;
   grid-column: 1/2;
   background-color: rgb(69,175,189);
 }
+.caffeine p:nth-child(1) {
+  font-size: 30px;
+  font-family: verdana;
+  font-weight: bold;
+  color: white;
+}
+.caffeine p:nth-child(2) {
+  font-size: 15px;
+  color: white;
+  font-family: verdana;
+}
 .coffee {
   grid-column: 2/3;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   background: url(coffee.png);
-  background-size: 25%;
+  background-size: 20%;
   background-repeat: no-repeat;
 background-position: left;
+}
+.coffee div:nth-child(2) {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: verdana;
+}
+.coffeetext {
+  display: flex;
+  -ms-flex-direction: row;
+  font-weight: bold;
+  font-family: verdana;
+}
+.coffeetext div:nth-child(1) {
+  font-size: 30px;
+}
+.coffeetext p {
+  font-size: 15px;
+}
+.coffeetext div:nth-child(2) {
+  font-size: 38px;
+}
+.coffeetext div:nth-child(3) {
+  font-size: 45px;
 }
 .cola {
   grid-column: 3/4;
@@ -485,7 +654,7 @@ background-position: top;
   -ms-flex-direction: column;
   font-weight: bold;
   font-family: verdana;
-}
+} 
 .colatext div:nth-child(1) {
   font-size: 30px;
 }
