@@ -496,6 +496,8 @@ background-color: gold;
 .bentext2 div:nth-child(2) {
   color:white;
   font-size: 10px;
+  font-family: verdana;
+  text-align: center;
 }
 .wrapm {
   display: flex;
