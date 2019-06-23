@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height:100%;
+  width: 100%;;
+  padding: 10px;
+}
+
+.aside {
+  border: 1px solid red;
+  height: 100%;
+  width: 10%;
+  float: left;
+  grid-area: aside;
+}
+ul {
+  list-style: none;
+  padding: 10px;
+}
+li {
+  margin-top: 10px;
+}
+.header {
+  border: 1px solid black;
+  height: 10%;
+  width: 90%;
+  float: right;
+  display: -ms-inline-grid;
+  grid-area: header;
+}
+.container2 {
+border: 1px solid blue;
+height: 20%;
+width: 45%;
+float: left;
+display: flex;
+justify-content: space-evenly;
+}
+.container2 > div {
+  border: 1px solid;
+  width: 25%;
+  height: 90%;
+  margin: 5px;
+}
+.container3 {
+  border: 1px solid blue;
+  height: 20%;
+  width: 45%;
+  float: right;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container3 > div {
+  border: 1px solid;
+  width: 25%;
+  height: 90%;
+  margin: 5px;
+}
+.container4 {
+  border: 1px solid purple;
+  height: 35%;
+  width: 90%;
+  float: right;
+  display: -ms-inline-grid;
+  display: flex;
+  justify-content: space-between;
+}
+.container4 {
+  border: 1px solid green;
+  height: 35%;
+  width: 90%;
+  float: right;
+  display: -ms-inline-grid;
+  display: flex;
+  justify-content: space-between;
+}
+.container4 div:nth-child(1) {
+  border: 1px solid;
+  width: 75%;
+  margin: 5px;
+}
+.container4 div:nth-child(2) {
+  border: 1px solid;
+  width: 25%;
+  margin: 5px;
+}
+.container5 {
+  border: 1px solid hotpink;
+  height: 35%;
+  width: 90%;
+  float: right;
+  display: -ms-inline-grid;
+  display: flex;
+  justify-content: space-between;
+}
+.container5 div:nth-child(1) {
+  border: 1px solid;
+  width: 75%;
+  margin: 5px;
+}
+.container5 div:nth-child(2) {
+  border: 1px solid;
+  width: 25%;
+  margin: 5px;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .aside {
+    display: flex;
+    height: 10%;
+    width: 100%;
+  } 
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  li {
+    padding: 10px;
+  }
+  .header {
+    display: none;
+  }
+ .container1 {
+   display: flex;
+   flex-direction: column;
+   height: 10%;
+   width: 100%;
+ }
+.container2 {
+  display: flex;
+  flex-direction: column;
+  height: 10%;
+  width: 100%;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  height: 10%;
+  width: 100%;
+}
+.container4 {
+  display: flex;
+  flex-direction: column;
+  height: 35%;
+  width: 100%;
+}
+.container5 {
+  display: flex;
+  flex-direction: column;
+  height: 35%;
+  width: 100%;
+}
+}
