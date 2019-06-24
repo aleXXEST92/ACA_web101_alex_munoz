@@ -166,17 +166,20 @@ justify-content: space-evenly;
   margin: 5px;
 }
 .five {
+  height: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
 }
 .five div:nth-child(1) {
   border-radius: 25px;
+  margin-bottom: 10px;
   background: url(./graph11.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 .five div:nth-child(2) {
   border-radius: 25px;
+  margin-bottom: 10px;
   background: url(./graph12.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -279,7 +282,7 @@ filter: alpha(opacity=30);
   width: 100%;
 } 
 .one {
-  
+ 
 }
 .two {
 
@@ -293,27 +296,28 @@ filter: alpha(opacity=30);
 .container4 {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 30%;
   width: 100%;
 }
 .container5 {
   display: flex;
   flex-direction: column;
-  height: 35%;
+  height: 45%;
   width: 100%;
 }
 .five {
-  height: 50%;
+  height: 30%;
 }
 .five div:nth-child(1) {
   width: 100%;
-  height: 50%;
+  height: 100%;
 }
 .five div:nth-child(2) {
-  display: none;
+  width: 100%;
+  height: 100%;
 }
 .six {
-  height: 50%
+  display: none;
 }
 .seven {
   height: 60%;
