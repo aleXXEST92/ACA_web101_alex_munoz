@@ -7,6 +7,11 @@ body{
   height:100%;
   width: 100%;;
   padding: 10px;
+  background: url(./phone5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: black
 }
 
 .aside {
@@ -17,6 +22,7 @@ body{
   grid-area: aside;
 }
 ul {
+  color: turquoise;
   list-style: none;
   padding: 10px;
 }
@@ -28,8 +34,8 @@ li {
   height: 10%;
   width: 90%;
   float: right;
-  display: -ms-inline-grid;
-  grid-area: header;
+  display: grid;
+  grid-template-columns: 60% 20% 20%
 }
 .container2 {
 border: 1px solid blue;
@@ -39,6 +45,17 @@ float: left;
 display: flex;
 justify-content: space-evenly;
 }
+.one {
+  background: url(./graph3.jpg);
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+.two {
+  background: url(./graph17.jpg);
+  background-size: 135%;
+  background-repeat: no-repeat;
+}
+
 .container2 > div {
   border: 1px solid;
   width: 25%;
@@ -58,6 +75,16 @@ justify-content: space-evenly;
   width: 25%;
   height: 90%;
   margin: 5px;
+}
+.three{
+  background: url(./graph14.jpg);
+  background-size: 135%;
+  background-repeat: no-repeat;
+}
+.four {
+  background: url(./graph16.jpg);
+  background-size: 135%;
+  background-repeat: no-repeat;
 }
 .container4 {
   border: 1px solid purple;
@@ -87,6 +114,40 @@ justify-content: space-evenly;
   width: 25%;
   margin: 5px;
 }
+.five {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.five div:nth-child(1) {
+  background: url(./graph11.jpg);
+  background-size: 100%;
+}
+.five div:nth-child(2) {
+  background: url(./graph12.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 330px;
+}
+.six {
+
+}
+.five div:nth-child(1) {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+.five div:nth-child(2) {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+.six {
+  background: url(./graph8.gif);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: bottom;
+  background-color: rgb(114,93,160);
+}
 .container5 {
   border: 1px solid hotpink;
   height: 35%;
@@ -97,17 +158,34 @@ justify-content: space-evenly;
   justify-content: space-between;
 }
 .container5 div:nth-child(1) {
-  border: 1px solid;
   width: 75%;
-  margin: 5px;
 }
 .container5 div:nth-child(2) {
-  border: 1px solid;
   width: 25%;
-  margin: 5px;
+}
+.seven {
+display: grid;
+grid-template-columns: 16.6% 16.6% 16.6% 
+                       16.6% 16.6% 16.6%;
+grid-template-rows: 11.1% 11.1% 11.1% 11.1% 
+                    11.1% 11.1% 11.1% 11.1% 11.1%;
+}
+.title {
+  color: fuchsia;
+}
+.eight {
+  background: url(./graph9.jpg);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  .aside {
+  
+  body {
+    background-position: bottom;
+    background-color: rgb(20,20,20);
+
+  }.aside {
     display: flex;
     height: 10%;
     width: 100%;
@@ -125,37 +203,34 @@ justify-content: space-evenly;
  .container1 {
    display: flex;
    flex-direction: column;
-   height: 10%;
+   height: 70%;
    width: 100%;
  }
 .container2 {
   display: flex;
   flex-direction: column;
-  height: 10%;
+  height: 50%;
   width: 100%;
 }
 .container3 {
   display: flex;
   flex-direction: column;
-  height: 10%;
+  height: 50%;
   width: 100%;
 }
 .one {
-  background: url()
-  height: 50%;
+  height: auto;
 }
 .two {
-  background: url()
-  height: 50%;
+ 
 }
 .three {
-  background: url()
-  height: 50%;
+  
 }
 .four {
-  background: url()
-  height: 50%;
+  
 }
+
 .container4 {
   display: flex;
   flex-direction: column;
@@ -170,6 +245,9 @@ justify-content: space-evenly;
 }
 .five {
   height: 50%;
+}
+.five div:nth-child(2) {
+  display: none;
 }
 .six {
   height: 50%
