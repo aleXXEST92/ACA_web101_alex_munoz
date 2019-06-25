@@ -72,6 +72,7 @@ button {
 }
 h1 {
   color: turquoise;
+  font-size: 25px;
 }
 span {
   color: rgb(79,154,251);
@@ -79,6 +80,11 @@ span {
 img {
   float: right;
   padding: 5px;
+}
+.intro {
+  font-size: 20px;
+  color: rgb(79,154,251);
+  padding: 10px;
 }
 .container2 {
 border: 1px solid blue;
@@ -213,7 +219,7 @@ justify-content: space-evenly;
   justify-content: space-between;
 }
 .container5 div:nth-child(1) {
-  width: 50%;
+  width: 75%;
 }
 .container5 div:nth-child(2) {
   width: 25%;
@@ -304,9 +310,14 @@ filter: alpha(opacity=30);
   flex-direction: column;
   height: 45%;
   width: 100%;
+  margin-top: 20px;
 }
+.container5 div:nth-child(1) {
+  width: 100%;
+}
+
 .five {
-  height: 30%;
+  height: 100%;
 }
 .five div:nth-child(1) {
   width: 100%;
@@ -320,10 +331,10 @@ filter: alpha(opacity=30);
   display: none;
 }
 .seven {
-  height: 60%;
+  height: 100%;
 }
 .eight {
-  height: 50%;
+ display: none;
 }
 }
 @media (max-width: 800px) {
