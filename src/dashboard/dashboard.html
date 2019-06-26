@@ -3,7 +3,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="dashboard.css">
   <title>Document</title>
 </head>
@@ -46,9 +47,9 @@
         <li>Search</li>
         <li>Charts</li>
         <li>Tables</li>
-        <li>Exposure</li>
+        <li class="ex">Exposure</li>
         <li>Earnings</li>
-        <li>Graphs</li>
+        <li class="graph">Graphs</li>
         
         
       </ul>
@@ -58,23 +59,48 @@
     <div class="container1">
 
       <div class="container2">
-        <div class="one">1</div>
-        <div class="two">2</div>
+        <div class="one">
+          <h2>10,368</h2>
+          <p><i class="fa fa-users" aria-hidden="true"></i>
+            Members Online</p>
+        </div>
+        <div class="two">
+          <h2>388,688</h2>
+          <p><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          Items Sold</p>
+        </div>
       </div>
 
       <div class="container3">
-        <div class="three">3</div>
-        <div class="four">4</div>
+        <div class="three">
+          <h2>1,086</h2>
+          <p><i class="fa fa-table" aria-hidden="true"></i>
+            This Week</p>
+        </div>
+        <div class="four">
+          <h2>1,060,386</h2>
+        <p><i class="fa fa-usd" aria-hidden="true"></i>
+          Total Earnings</p></div>
       </div>
 
     </div>
 
     <div class="container4">
       <div class="five">
-        <div></div>
-        <div></div> 
+        <div class=five1>
+          <h3><i class="fa fa-database" aria-hidden="true"></i> 
+            Recents Reports</h3>
+           
+        </div>
+        <div class=five2>
+          <h3><i class="fa fa-line-chart" aria-hidden="true"></i>
+          Products Vs Services</h3>
+        </div> 
       </div>
-      <div class="six">Your Daily Vs Weekly Vs Monthly Exposure</div>
+      <div class="six">
+        <h3><i class="fa fa-area-chart" aria-hidden="true"></i>
+          Weekly Vs Monthly Exposure</h3>
+      </div>
     </div>
   
 
@@ -86,57 +112,60 @@
       <div class="title">Price</div>
       <div class="title">Quantity</div>
       <div class="title">Total</div>
-      <div>2018-9-29</div>
-      <div>100398</div>
-      <div>iPhone XR</div>
-      <div>4</div>
-      <div>5</div>
-      <div>6</div>
-      <div>2018-9-28</div>
-      <div>100397</div>
-      <div>Samsung 8</div>
-      <div>10</div>
-      <div>11</div>
-      <div>12</div>
-      <div>2018-9-27</div>
-      <div>100396</div>
-      <div>Gama</div>
-      <div>16</div>
-      <div>17</div>
-      <div>18</div>
-      <div>2018-9-26</div>
-      <div>100395</div>
-      <div>iPhone X</div>
-      <div>22</div>
-      <div>23</div>
-      <div>24</div>
-      <div>2018-9-25</div>
-      <div>100394</div>
-      <div>USB 3.0</div>
-      <div>28</div>
-      <div>29</div>
-      <div>30</div>
-      <div>2018-9-25</div>
-      <div>100393</div>
-      <div>Smartwatch 4.0</div>
-      <div>34</div>
-      <div>35</div>
-      <div>36</div>
-      <div>2018-9-24</div>
-      <div>100392</div>
-      <div>39</div>
-      <div>40</div>
-      <div>41</div>
-      <div>42</div>
-      <div>2018-9-22</div>
-      <div>100391</div>
-      <div>45</div>
-      <div>46</div>
-      <div>47</div>
-      <div>48</div>
+      <div class="dates">2018-9-29</div>
+      <div class="order">100398</div>
+      <div class="item">iPhone XR</div>
+      <div class="price">$999.00</div>
+      <div class="quantity">1</div>
+      <div class="total">$999.00</div>
+      <div class="dates">2018-9-28</div>
+      <div class="order">100397</div>
+      <div class="item">Samsung 8</div>
+      <div class="price">$758.00</div>
+      <div class="quantity">1</div>
+      <div class="total">$758.00</div>
+      <div class="dates">2018-9-27</div>
+      <div class="order">100396</div>
+      <div class="item">Game-Controller</div>
+      <div class="price">$22.00</div>
+      <div class="quantity">2</div>
+      <div class="total">$44.00</div>
+      <div class="dates">2018-9-26</div>
+      <div class="order">100395</div>
+      <div class="item">iPhone X</div>
+      <div class="price">$899.00</div>
+      <div class="quantity">1</div>
+      <div class="total">$899.00</div>
+      <div class="dates">2018-9-25</div>
+      <div class="order">100394</div>
+      <div class="item">USB 3.0</div>
+      <div class="price">$10.00</div>
+      <div class="quantity">3</div>
+      <div class="total">$30.00</div>
+      <div class="dates">2018-9-25</div>
+      <div class="order">100393</div>
+      <div class="item">Smartwatch 4.0</div>
+      <div class="price">$199.00</div>
+      <div class="quantity">1</div>
+      <div class="total">$199.00</div>
+      <div class="dates">2018-9-24</div>
+      <div class="order">100392</div>
+      <div class="item">Camera-C430W</div>
+      <div class="price">$699.00</div>
+      <div class="quantity">1</div>
+      <div class="total">$699.00</div>
+      <div class="dates">2018-9-22</div>
+      <div class="order">100391</div>
+      <div class="item">PS4</div>
+      <div class="price">$269.00</div>
+      <div class="quantity">2</div>
+      <div class="total">$538.00</div>
     </div>
 
-      <div class="eight">8</div>
+      <div class="eight">
+        <h3><i class="fa fa-pie-chart" aria-hidden="true"></i>
+        Chart By %</h3>
+      </div>
     </div>
 
 
