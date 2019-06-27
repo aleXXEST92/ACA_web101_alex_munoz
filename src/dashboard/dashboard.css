@@ -121,7 +121,7 @@ h3 {
     height: 100%;
     width: 30%;
     border-radius: 25px;
-    background: url(./graph3.jpg);
+    background: url(./Dashboard-Images/graph3.jpg);
     background-size: 150%;
     background-repeat: no-repeat;
     background-position: center;
@@ -132,7 +132,7 @@ h3 {
     height: 100%;
     width: 30%;
     border-radius: 25px;
-    background: url(./graph17.jpg);
+    background: url(./Dashboard-Images/graph17.jpg);
     background-size: 135%;
     background-repeat: no-repeat;
     background-position: center;
@@ -151,7 +151,7 @@ h3 {
     height: 100%;
     width: 30%;
     border-radius: 25px;
-    background: url(./graph14.jpg);
+    background: url(./Dashboard-Images/graph14.jpg);
     background-size: 175%;
     background-repeat: no-repeat;
     background-position: center;
@@ -163,7 +163,7 @@ h3 {
   height: 100%;
   width: 30%;
   border-radius: 25px;
-  background: url(./graph16.jpg);
+  background: url(./Dashboard-Images/graph16.jpg);
   background-size: 135%;
   background-repeat: no-repeat;
   background-position: center;
@@ -189,7 +189,7 @@ h3 {
   margin: 5px;
   border-radius: 25px;
   margin-bottom: 10px;
-  background: url(./graph11.jpg);
+  background: url(./Dashboard-Images/graph11.jpg);
   background-size: 125%;
   background-repeat: no-repeat;
   display: flex;
@@ -198,7 +198,7 @@ h3 {
 .five2 {
   border-radius: 25px;
   margin-bottom: 10px;
-  background: url(./graph12.jpeg);
+  background: url(./Dashboard-Images/graph12.jpeg);
   background-size: 125%;
   background-repeat: no-repeat;
   width: 75%;
@@ -208,7 +208,7 @@ h3 {
 .six {
   margin: 5px;
   border-radius: 25px;
-  background: url(./graph8.gif);
+  background: url(./Dashboard-Images/graph8.gif);
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: bottom;
@@ -274,7 +274,7 @@ filter: alpha(opacity=30);
   font-family: 'Josefin Sans', sans-serif;
 }
 .eight {
-  background: url(./graph9.jpg);
+  background: url(./Dashboard-Images/graph9.jpg);
   background-repeat: no-repeat;
   background-size: 65%;
   background-position: center;
