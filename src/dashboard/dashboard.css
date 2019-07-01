@@ -95,15 +95,19 @@ img {
   font-family: 'Josefin Sans', sans-serif;
 }
 h2 {
+  padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: 'Josefin Sans', sans-serif;}
+  font-family: 'Josefin Sans', sans-serif;
+
+}
 p {
   text-align: center;
   color:white;
   font-family: 'Josefin Sans', sans-serif;
 }
 h3 {
+  padding-top: 15px;
   text-align: center;
   color: whitesmoke;
   font-family: 'Josefin Sans', sans-serif;
@@ -177,6 +181,7 @@ h3 {
   justify-content: space-between;
 }
 .five {
+  margin-top: 10px;
   margin-left: 110px;
   width: 75%;
   margin: 5px;
@@ -206,6 +211,9 @@ h3 {
   flex-direction: column;
 }
 .six {
+  width: 23%;
+  margin-top: 15px;
+  padding-top: 4px;
   margin: 5px;
   border-radius: 25px;
   background: url(./Dashboard-Images/graph8.gif);
@@ -213,6 +221,9 @@ h3 {
   background-size: 80%;
   background-position: bottom;
   background-color: rgb(114,93,160);
+}
+.six h3 {
+  padding-top: 4px;
 }
 .container5 {
   height: 35%;
@@ -226,6 +237,7 @@ h3 {
   width: 25%;
 }
 .seven {
+margin-top: 10px;
 width: 75%;
 display: grid;
 grid-template-columns: 16.6% 16.6% 16.6% 
@@ -237,6 +249,7 @@ opacity: 0.9;
 filter: alpha(opacity=30);
 }
 .title {
+  font-size: large;
   display: flex;
   justify-content: center;
   color: rgb(62,4,15);
@@ -276,8 +289,8 @@ filter: alpha(opacity=30);
 .eight {
   background: url(./Dashboard-Images/graph9.jpg);
   background-repeat: no-repeat;
-  background-size: 65%;
-  background-position: center;
+  background-size: 50%;
+  background-position: bottom;
   margin: 5px;
 }
  @media (max-width: 500px) and (min-width: 799px) {
