@@ -7,7 +7,7 @@ body{
   height:100%;
   width: 100%;;
   padding: 10px;
-  background: url(./phone5.jpg);
+  background: url(./Dashboard-Images/phone5.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -237,6 +237,7 @@ h3 {
   width: 25%;
 }
 .seven {
+border: 1px solid hotpink;
 margin-top: 10px;
 width: 75%;
 display: grid;
@@ -585,6 +586,7 @@ filter: alpha(opacity=30);
     flex-direction: column;
 }
   .container5 {
+    margin-top: 0px;
     border: 1px solid hotpink;
     height: 35%;
     width: 100%;
