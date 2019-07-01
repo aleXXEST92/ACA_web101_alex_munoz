@@ -8,9 +8,6 @@ body {
   width: 100%;
   padding-top: 30px;
 }
-.border {
-  border: 1px solid red;
-}
 #header {
   border-top: 2px dashed white;
   height: 25%;
@@ -69,14 +66,17 @@ a:visited {
 #header .article {
 height: 260%;
 width: 70%;
-border: 3px solid rgb(76,143,150);
+border: 5px solid rgb(95,179,189);
+border-radius: 5px;
 margin-top: 100px;
 margin-left: 195px;
 display: grid;
-grid-template-columns: 35% 65%;
+grid-template-columns: 45% 55%;
 }
 .img1 {
-  background: url(./Hair-Images/hairstyle1.jpg)
+  background: url(./Hair-Images/hairstyle1.jpg);
+  background-size: 103%;
+  background-repeat: no-repeat;
 }
 h2 {
   color: rgb(27,33,48);
@@ -98,16 +98,18 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 .pic  {
+  box-shadow: 10px;
   margin: 10px;
-  border: 3px solid rgb(76,143,150);
-  width: 215px;
+  border: 5px solid rgb(95,179,189);
+  border-radius: 5px;
+  width: 195px;
   height: 175px;
 }
 b {
   display: block;
   font-size: 18px;
   font-weight: normal;
-  margin: 0;
+  margin: 10px;
   padding: 10px 0 5px;
   text-transform: capitalize;
 }
@@ -122,6 +124,10 @@ b {
 #body > .paragraphs a {
 color: #464646;
 text-decoration: underline;
+}
+.paragraphs > p {
+  margin: 10px;
+  padding: 0px;
 }
 .style1 {
   background: url(./Hair-Images/style1.jpg)
@@ -142,6 +148,7 @@ background: url(./Hair-Images/hairstyle4.jpg)
   grid-template-columns: 15% 10% 25% 10% 25% 15%;
 }
 .titles1 {
+  padding-top: 10px;
   background-color: rgb(34,41,66);
   display: flex;
   flex-direction: column;
@@ -154,13 +161,15 @@ h3 {
   text-decoration: none;
 }
 .titles2 {
+  padding-top: 10px;
   background-color: rgb(34,41,66);
 }
 #body2 {
   margin-top: 0px;
   border: 1px solid;
-  height: 100%;
-  width: 80%;
+  height: 310%;
+  width: 70%;
+  margin-left: 195px;
   margin: 75px;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -170,18 +179,22 @@ h3 {
   color: #464646;
   text-decoration: underline;
   }
+.style6 {
+  padding: 10px;
+  }
 .featured {
+  height: 111%;
   margin: 10px;
   margin-top: -20px;
   padding-top: 30px;
   grid-column: 1;
   grid-row: 1/3;
-  border: 3px solid rgb(76,143,150);  
+  border: 5px solid rgb(95,179,189); 
+  border-radius: 5px;
 }
-
 h4 {
   float: right;
-  padding: 10px;
+  padding: 40px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -192,17 +205,19 @@ h4 {
   padding-top: 30px;
   grid-column: 2;
   grid-row: 1;
-  border: 3px solid rgb(76,143,150);
+  border: 3px solid rgb(95,179,189);
+  border-radius: 5px;
 }
 .area3 {
   margin: 10px;
   grid-column: 2;
   grid-row: 2;
-  border: 3px solid rgb(76,143,150);
+  border: 5px solid rgb(95,179,189);
+  border-radius: 5px;
 }
 #footer {
   height: 70%;
   width: 100%;
-  border: 1px solid black;
-  background-color: rgb(76,143,150);
+  background-color: rgb(95,179,189);
+  border-radius: 5px;
 }
