@@ -16,9 +16,6 @@ body {
   grid-template-rows: 50% 50%;
 }
 h1 {
-  font-size: 15px;
+  font-size: 25px;
   color: rgb(148,156,207)
-}
-span {
-  height: 50px;
 }
