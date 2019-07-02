@@ -1,0 +1,24 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: box-shadow;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.grid {
+  height: 75%;
+  width: 60%;
+  border: 1px solid;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+h1 {
+  font-size: 15px;
+  color: rgb(148,156,207)
+}
+span {
+  height: 50px;
+}
