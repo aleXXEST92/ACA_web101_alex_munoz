@@ -1,0 +1,52 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+}
+.gradient button.b-1 {
+  width: 150px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  text-shadow: 0 2px 4px purple;
+  cursor: pointer; 
+  font-size: 12px;
+}
+.gradient button.b-1 {
+  background: -moz-linear-gradient(top, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%,) 100%);
+  background: -webkit-gradient(top, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 100%, 50%) 0%, hsl(208, 100%, 50%) 100%);
+  margin-right: .25rem;
+}
+.gradient button.b-1:hover {
+  background: -moz-linear-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%,) 100%);
+  background: -webkit-gradient(top, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+  background: linear-gradient(to bottom, hsl(194, 100%, 40%) 0%, hsl(208, 100%, 40%) 100%);
+}
+.gradient button.b-2 {
+  font-size: 12px;
+  width: 150px;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-shadow: 0 2px 4px blue;
+  cursor: pointer;
+}
+.gradient button.b-2 {
+  background: -moz-linear-gradient(top, hsl (48, 100%, 50%) 0%, hsl (28, 100%, 50%,) 100%);
+  background: -webkit-gradient(top, hsl (48, 100%, 50%) 0%, hsl (28, 100%, 50%) 100%);
+  background: linear-gradient(to bottom, hsl (48, 100%, 50%) 0%, hsl (28, 100%, 50%) 100%);
+  margin-right: .25rem;
+}
+.gradient button.b-2:hover {
+  background: -moz-linear-gradient(top,  hsl(48, 100%, 50%) 0%, hsl(28, 100%, 50%) 100%);
+  background: -webkit-linear-gradient(top,  hsl(48, 100%, 50%) 0%,hsl(28, 100%, 50%) 100%);
+  background: linear-gradient(to bottom,  hsl(48, 100%, 50%) 0%,hsl(28, 100%, 50%) 100%);
+}
