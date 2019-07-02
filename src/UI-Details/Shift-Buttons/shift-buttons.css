@@ -1,0 +1,42 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.border1 {
+  background-color: rgb(241,241,241);
+  height: 25%;
+  width: 80%;
+  padding: 25px;
+}
+button {
+  width: 125px;
+  height: 30px;
+  font-size: 11px;
+  text-transform: uppercase;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  transition: all .22s;
+}
+button:hover {
+  transform: translateY(2px);
+  filter: brightness(130%);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1) 0 3px 6px rbga(0,0,0,.08);
+}
+.shift button.b-1 {
+  background-color: rgb(103,113,229);
+  color: white;
+}
+.shift button.b-2 {
+  color: rgb(103,113,229);
+}
+
+
+
+
