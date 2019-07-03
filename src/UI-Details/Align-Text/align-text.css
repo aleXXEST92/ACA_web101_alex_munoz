@@ -7,15 +7,37 @@ body {
   height: 100%;
   width: 100%;
 }
-.grid {
-  height: 75%;
-  width: 60%;
-  border: 1px solid;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
+.ex-6 i,
+.ex-6 .title{
+  color: #949CCF; 
 }
-h1 {
-  font-size: 25px;
-  color: rgb(148,156,207)
+.ex-6 .title{
+  font-size: 20px;
 }
+.ex-6 .col{
+  display: flex;
+  width: calc(50% - 1rem); 
+  margin-bottom: 1.5rem; 
+  margin: 8px;
+}
+.ex-6 i{
+  font-size: 35px;
+}
+.ex-6{
+  display: flex;
+  flex-wrap: wrap;
+}
+.text-col p {
+  margin: 5px;
+  padding-top: 15px;
+  margin-right: 100px;
+}
+.icon-col {
+  margin-right: 20px;
+  margin-left: 50px;
+  padding-top: 10px;
+}
+.icon-col sheild {
+  margin-left: 38px;
+}
+
