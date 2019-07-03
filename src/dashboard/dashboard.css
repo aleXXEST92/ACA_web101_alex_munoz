@@ -98,18 +98,21 @@ h2 {
   padding-top: 30px;
   text-align: center;
   color: white;
+  text-shadow: 0 4px 8px rgba(0,0,0,0.2);
   font-family: 'Josefin Sans', sans-serif;
 
 }
 p {
   text-align: center;
   color:white;
+  text-shadow: 1px 4px 8px rgba(0,0,0,0.2);
   font-family: 'Josefin Sans', sans-serif;
 }
 h3 {
   padding-top: 15px;
   text-align: center;
   color: whitesmoke;
+  text-shadow: 0 2px 4px rgba(228, 35, 35, 0.2);
   font-family: 'Josefin Sans', sans-serif;
 }
 .container2 {
@@ -290,7 +293,7 @@ filter: alpha(opacity=30);
 .eight {
   background: url(./Dashboard-Images/graph9.jpg);
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 69%;
   background-position: bottom;
   margin: 5px;
 }
@@ -597,6 +600,7 @@ filter: alpha(opacity=30);
 }
   .seven {
     width: 150%;
+    margin-top: 0px;
   }
   .eight {
     display: none;
