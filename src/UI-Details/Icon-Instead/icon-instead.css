@@ -1,0 +1,39 @@
+* {
+  padding: 15px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+  height: 100%;
+  width: 80%;
+  background-color: rgb(241,241,241);
+}
+h1 {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+ul li{
+  list-style: none;
+  line-height: 2;
+  color: #444;
+  margin-left: -2.325rem;
+}
+ul div {
+  width: 50%;
+}
+ul li:before{
+  content: '\f05d';
+  font-family: 'FontAwesome';
+  padding-right: 1rem;
+  font-size: 1.325rem;
+  color: rgb(174,152,219);
+  vertical-align: -2px;
+}
