@@ -1,0 +1,42 @@
+* {
+  padding: 0px;
+  margin: 20px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+}
+body {
+  height: 100%;
+  width: 80%;
+}
+.bold {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.b1 {
+  height: 50px;
+  width: 100px;
+  background-color: transparent;
+  color: rgb(139, 139, 139);
+}
+.b1:hover{
+  background: rgb(223, 223, 223);
+  color: rgb(105, 105, 105);
+}
+.b2{
+  height: 50px;
+  width: 110px;
+  background: rgb(34,145,201);
+  color: white;
+}
+.b2:hover{
+  background: rgb(61, 164, 216);
+}
