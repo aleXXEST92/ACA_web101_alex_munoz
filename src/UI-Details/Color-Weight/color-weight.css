@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.wrap {
+  display: flex;
+}
+.number {
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+  padding-top: 8px;
+  background-color: rgb(180,223,235);
+  border: 2px solid rgb(106,163,180);
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  color: rgb(52,67,75);
+  font-weight: bold;
+}
+.title {
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+  color:rgb(52,67,75);
+  font-size: 24px;
+}
+.text {
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+  color: rgb(146, 147, 148);
+  font-size: 16px;
+}
