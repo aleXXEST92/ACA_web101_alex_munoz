@@ -1,0 +1,52 @@
+* {
+  padding: 0px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(241,241,241);
+}
+button {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+.main {
+  text-align: center;
+  font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+}
+p {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: rgb(118, 121, 122);
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+.cancel {
+  background: transparent;
+  color: rgb(148, 150, 151);
+  border: 2px solid rgb(201,204,206);
+  padding: 8px 20px;
+  border-radius: 5px;
+  height: 50px;
+  width: 100px;
+}
+.cancel:hover{
+  background: rgb(221, 221, 221);
+  color: rgb(32, 32, 32);
+}
+.delete {
+  border: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  padding: 8px 20px;
+  color: white;
+  background-color: rgb(250,56,95);
+}
+.delete:hover{
+  background: rgb(224, 49, 84);
+}
