@@ -1,7 +1,7 @@
 body {
     background-size: 50%;
     width: 100vw;
-    height: 100vh;
+    height: 160vh;
   }
   .logo {
     width: 150px;
@@ -60,7 +60,7 @@ body {
     background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-638652378-1536781222.jpg?crop=1.00xw:0.753xh;0,0.208xh&resize=480:*);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 77%;
+    height: 51%;
     width: 100%;
     display: grid;
     grid-template-columns: 20% 40% 40%;
@@ -99,13 +99,6 @@ body {
     color: #1940A9;
     text-shadow: 2px 1px 4px rgb(197,109,102);
   }
-  .small-text {
-
-    grid-column: 2/3;
-    color: rgb(167, 34, 67);
-    font-size: 10px;
-    margin: 3% auto;
-  }
   button {
     margin: 3% auto;
     width: 35%;
@@ -121,12 +114,87 @@ body {
     letter-spacing: 2px;
     text-shadow: 3px 2px 5px black;
   }
+  .main2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 40%;
+    width: 100%;
+    background-image: linear-gradient(to right,black,rgb(205,73,118))
+  } 
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    padding-left: 150px;
+  }
+  .contact-title {
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Lobster', cursive; 
+    letter-spacing: 5px;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(197,109,102);
+    text-shadow: 2px 1px 4px rgb(59,69,173);
+    font-size: 30px;
+    transition: all 4s ease-in-out; 
+  }
+  .textform {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid yellow;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  input {
+    height: 35px;
+  }
+  .submit {
+    background-color: transparent;
+    color: White;
+    height: 35px;
+    border: 2px solid yellow;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  iframe {
+    border: 3px dashed gold;
+    margin-left: 145px;
+    margin-top: 10px;
+  }
+  h5 {
+    margin-top: 35px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 15px;
+    color: #1940A9;
+    font-weight: bold;
+    text-shadow: 2px 1px 4px yellow;
+    transition: all 4s ease-in-out;
+  }
   footer {
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    height: 15%;
+    height: 8%;
     width: 100%;
     background-image: linear-gradient(to right,black,rgb(205,73,118))
+  }  
+  .small-text {
+    color: white;;
+    font-size: 15px;
+    margin: 10% auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+ .link {
+    display: flex;
+    justify-content: center;
+  
+  }
+  i {
+    padding: 10px;
+    color: white;
   }
    
   @media (min-width:500px) and (max-width: 800px) {
@@ -139,12 +207,13 @@ body {
   i {
      height: 100px;
      width: 100px;
-   }
-     .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left; 
-    }p {
+    }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left; 
+    }
+  p {
     display: none;
   }
  .active {
@@ -153,5 +222,4 @@ body {
   a {
     font-size: 13px;
   }
-  
 }
