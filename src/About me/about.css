@@ -43,7 +43,7 @@ main {
   height: 92%;
   width: 100%;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 35% 65%;
   grid-template-rows: 50% 50%;
 }
 .img {
