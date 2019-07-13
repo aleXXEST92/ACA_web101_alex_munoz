@@ -4,20 +4,28 @@
   box-sizing: border-box;
 }
 body {
+  margin: 15px;
   height: 100%;
   width: 100%;
+  background-image: linear-gradient(to left, cyan, hotpink) ;
+
 }
 header {
-  background-image: linear-gradient(to right, rgb(205,73,118), black) ;
+  background-image: linear-gradient(to right, hotpink, cyan) ;
   display: grid;
   grid-template-columns: 30% 40% 30%;
   width: 100%;
-  height: 8%;
+  height: 12%;
 }
-.name {
-  color: pink;
-  font-size: 20px;
-
+.text {
+position: relative;
+}
+h1 {
+  position: relative;
+  left: 260px;
+  color: yellow;
+  font-size:55px;
+  text-shadow: 1px 2px 2px black;
 }
 .topnav {
   display: flex;
@@ -27,6 +35,7 @@ header {
   padding-right: 2%;
 }
 .topnav a:hover {
+   cursor: url("./IMG_6017.jpg"), pointer;
   -webkit-transform: scale(1.3);
   -ms-transform: scale(1.3);
   transform: scale(1.3);
@@ -36,54 +45,66 @@ header {
   height: 8%;
   width: 15%;
   color:  yellow;
+  text-shadow: 1px 5px 4px black;
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   text-align: center;
-  text-decoration-color: #1940A9;
+  text-decoration-color: cyan;
 }
 .topnav .icon {
   display: none;
 }
 main {
-  height: 92%;
+  height: 88%;
   width: 100%;
   display: grid;
   grid-template-columns: 35% 65%;
   grid-template-rows: 50% 40% 10%;
 }
 .img {
-  background:url(./06EC4685-511C-44CA-A6D8-DDAEE934254C.JPEG);
-  background-size: 52%;
+  background:url(./me22.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   border-radius: 5px;
   grid-row: 1/3; 
   background-color:transparent;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 5px groove yellow;
+  box-shadow: 6px 8px 10px  white;
 }
-/* .content {
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
-} */
+.img:hover {
+  background: url("./me.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.text > p {
+  padding-top: 60px;
+}
 .content {
   display: flex;
 }
+.wrap > p {
+  margin: 15px;
+}
+.content h2:hover {
+  -webkit-animation: linear 2s infinite;
+  cursor: url("./IMG_6017.jpg"), pointer;}
 .wrap {
   flex-direction: column;
-}
-ul {
-  display: flex;
-  justify-content: space-evenly;
-}
-li {
-  padding: 10px;
-  list-style: none;
+  text-align: center;
 }
 .footer {
   height: 10%;
   grid-column: 1/3;
   text-align: center;
   font-size: 25px;
-  color:pink;
+  color:white;
+  text-shadow: 2px 4px 4px hotpink;
+}
+.footer > p {
+  margin-top: 30px;
 }
 @media (max-width:600px) {
 body {
