@@ -7,7 +7,7 @@ body {
   margin: 15px;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(to left, cyan, hotpink) ;
+  background-image: linear-gradient(to left, cyan, hotpink); 
   background-repeat: no-repeat;
 }
 header {
@@ -36,7 +36,7 @@ position: relative;
 .topnav a:hover {
    cursor: url("./IMG_6017.jpg"), pointer;
   -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
+  -ms-transform: scale(1.3); 
   transform: scale(1.3);
 }
 .topnav a.active {
@@ -49,6 +49,7 @@ position: relative;
   font-size: 18px;
   text-align: center;
   text-decoration-color: cyan;
+  transition: all 2s ease-in-out;
 }
 .topnav .icon {
   display: none;
@@ -88,7 +89,7 @@ h1 {
   text-shadow: 1px 2px 2px black;
 }
 .text > p {
-  padding-top: 60px;
+  padding-top: 40px;
   text-align: center;
 }
 .content {
@@ -102,7 +103,6 @@ h2 {
   margin-right: 30px;
 }
 .content h2:hover {
-  -webkit-animation: linear 2s infinite;
   cursor: url("./IMG_6017.jpg"), pointer;
 }
 .wrap {
@@ -121,6 +121,7 @@ h2 {
 }
 .footer > p {
   margin-top: 30px;
+  transition: all 2s ease-in-out;
 }
 .colson{
   position: relative;
