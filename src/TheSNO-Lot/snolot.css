@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background: url(./shaveicetruck.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10;
+}
+header {
+  height: 35%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  background: transparent;
+}
+.logo {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+li {
+  padding-right: 20px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+header a.responsive-menu-toggle {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -17px;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  border-radius: 3px;
+  z-index: 200;
+}
+header .responsive-menu-toggle, #Header_creative .creative-menu-toggle, #Header_creative .responsive-menu-toggle {
+  color: #2dfff3;
+  background: transparent;
+}
+header a.responsive-menu-toggle i {
+  font-size: 22px;
+  line-height: 34px;
+}
