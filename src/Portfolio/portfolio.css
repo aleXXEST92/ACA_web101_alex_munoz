@@ -98,7 +98,8 @@ body {
   h3 {
     font-family: 'Quicksand', sans-serif;
     color: #1940A9;
-    text-shadow: 2px 1px 4px rgb(197,109,102);
+    text-shadow: 2px 1px 4px rgb(221, 35, 22);
+
   }
   button {
     margin: 3% auto;
