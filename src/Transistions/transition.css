@@ -1,0 +1,151 @@
+* {
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+div:nth-child(even) {
+  transition: transform 3s ease;
+}
+div:nth-child(odd) {
+  transition: transform 3s ease;
+} 
+main:hover div:nth-of-type(even) {
+    transform: scale(2) translateX(18em) rotate(270deg);
+}
+main:hover div:nth-of-type(odd) {
+    transform: scale(0.5) translateX(-50em) rotate(270deg);
+}
+.box1{
+  width: 50px;
+  height: 50px;
+  margin: 20px 20px;
+  background: white;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+}
+.box2{
+  width: 50px;
+  height: 50px;
+  margin: 20px 20px;
+  background: lightpink;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+}
+.box3{
+  width: 50px;
+  height: 50px;
+  margin: 20px 20px;
+  background: hotpink;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+}
+.box4{
+  width: 50px;
+  height: 50px;
+  margin: 20px 20px;
+  background: purple;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+}
+.box5{
+  width: 50px;
+  height: 50px;
+  margin: 20px 20px;
+  background: lightblue;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+}
+.box6{
+  width: 50px;
+  height: 50px;
+  margin: 20px 20px;
+  background: cyan;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+}
+.box7{
+  width: 50px;
+  height: 50px;
+  margin: 20px 20px;
+  background: green;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+}
+.box8{
+  width: 50px;
+  height: 50px;
+  margin: 20px 20px;
+  background: greenyellow;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+}
+.box9{
+  width: 50px;
+  height: 50px;
+  margin: 20px 20px;
+  background: yellow;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+}
+.box10{
+  width: 50px;
+  height: 50px;
+  margin: 20px 20px;
+  background: orange;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+}
+.box11{
+  width: 50px;
+  height: 50px;
+  margin: 20px 20px;
+  background: red;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+}
+.box12{
+  width: 50px;
+  height: 50px;
+  margin: 20px 20px;
+  background: black;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+  box-shadow: 2px 2px 7px 0px rgba(5, 5, 5, 0.63);
+}
+
+
