@@ -9,12 +9,21 @@ var box = document.querySelector('.box')
 var allboxes = document.querySelectorAll ('.box')
 document.addEventListener ? 'addEventListener' : 'attachEvent'
 
-  function setXO(element) {
-    console.log('hey element', element)
-    element.style.fontSize=60 + 'px'
-    element.innerText ='X'
-  } 
 
-  var gamemarker = "X"
+  var gameMarker = "X"
 function changeGameMarkerToX () {}
 function changeGameMarkerToO () {}
+
+function setXO(element) {
+  console.log('hey element', element)
+  element.style.fontSize=60 + 'px'
+  
+  if (gameMarker === "X") {
+    element.innerText ='O'
+    gameMarker = "O"
+  } else {
+    element.innerText ="X"
+    gameMarker ="X"
+    
+  }
+} 
