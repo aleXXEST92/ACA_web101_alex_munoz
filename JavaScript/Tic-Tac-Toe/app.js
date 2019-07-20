@@ -16,7 +16,8 @@ function changeGameMarkerToO () {}
 
 function setXO(element) {
   console.log('hey element', element)
-  element.style.fontSize=60 + 'px'
+  element.style.fontSize=100 + 'px'
+  element.style.paddingTop=20 + 'px'
   
   if (gameMarker === "X") {
     element.innerText ='O'
@@ -24,6 +25,5 @@ function setXO(element) {
   } else {
     element.innerText ="X"
     gameMarker ="X"
-    
   }
 } 
