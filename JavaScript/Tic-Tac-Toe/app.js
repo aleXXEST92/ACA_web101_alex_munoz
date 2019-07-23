@@ -9,6 +9,7 @@ var box = document.querySelector('.box')
 var allboxes = document.querySelectorAll ('.box')
 document.addEventListener ? 'addEventListener' : 'attachEvent'
 
+alert("Let's Play Tic Tac Toe!!!");
 
   var gameMarker = "X"
 function changeGameMarkerToX () {}
