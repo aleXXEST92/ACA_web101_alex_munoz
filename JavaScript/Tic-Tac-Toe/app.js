@@ -11,7 +11,7 @@ document.addEventListener ? 'addEventListener' : 'attachEvent'
 
 alert("Let's Play Tic Tac Toe!!!");
 
-  var gameMarker = "O"
+var gameMarker = "O"
 function changeGameMarkerToX () {}
 function changeGameMarkerToO () {}
 
@@ -28,3 +28,4 @@ function setXO(element) {
     gameMarker ="X"
   }
 } 
+lock.lock("X");
