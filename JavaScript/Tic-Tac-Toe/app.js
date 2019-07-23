@@ -27,3 +27,8 @@ function setXO(element) {
     gameMarker ="X"
   }
 } 
+#announce-game-won {
+  font-size: 50px;
+  text-align: center;
+}
+
