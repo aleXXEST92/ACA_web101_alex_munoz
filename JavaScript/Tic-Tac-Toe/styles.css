@@ -13,14 +13,14 @@ h1 {
   height: 500px;
   width: 500px;
   display: grid;
-  border: 3px solid black;
+  border: 3px solid limegreen;
   grid-template-columns: 33.33% 33.33% 33.33%;
   grid-template-rows: 33.33% 33.33% 33.33%;
 }
 .border {
-  border: 1px solid black;
+  border: 1px solid limegreen;
 }
 div {
-  border: 1px solid black;
+  border: 1px solid limegreen;
   text-align: center;
 }
