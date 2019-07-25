@@ -1,0 +1,93 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+padding: 0px;
+border: 1px solid;
+}
+header {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 15px;
+  color: linear-gradient 
+}
+main {
+  transform: rotate(-90deg);
+  position: relative;
+  top: 140px;
+  left: 350px;
+  border: 1px solid;
+  width: 40%;
+}
+.row {
+  height: 35px;
+  width: 80%;
+  margin: 25px;
+
+}
+.red {
+  width: 33%;
+  background-color: rgb(245, 138, 138);
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.yellow {
+  width: 66%;
+  background-color: rgb(247, 247, 130);
+  border-radius: 5px;
+  border: 1px solid;
+}
+.purple {
+  width: 100%;
+  background-color: rgb(243, 168, 243);
+  border-radius: 5px;
+  border: 1px solid;
+}
+.green {
+  width: 66%;
+  background-color: rgb(178, 247, 178);
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.blue {
+  width: 33%;
+  background-color: rgb(191, 191, 243);
+  border-radius: 5px;
+  border: 1px solid;
+}
+.color {
+  width: 25px;
+  float: left;
+  border: 1px solid;
+}
+
+.blue1 {
+  height: 33px;
+  background-color:blue;
+}
+
+.green1 {
+  height: 33px;
+  background-color: green;
+}
+.purple1 {
+  height: 33px;
+  background-color: purple;
+}
+.red1 {
+  height: 33px;
+  background-color: red;
+}
+
+.yellow1 {
+  height: 33px;
+  background-color: yellow;
+}
+
+
+
