@@ -1,0 +1,45 @@
+/*
+    Theme Name: austin.(design()
+    Theme URL: 
+    Author: Alex Munoz
+    Author URL: https://alexxest92.github.io/ACA_web101_Alex_Munoz/src/Portfolio/portfolio.html
+*/
+.motel img {
+  height: 100%;
+  width: 100%;
+  opacity: .6;
+}
+h1 {
+  position: relative;
+  bottom: 505px;
+  left: 190px;
+  color: rgb(161,153,191);
+  text-shadow: 2px 2px 2px black;
+  text-decoration: bold;
+}
+.text-dark {
+  position: relative;
+  top: 385px;
+  right: 375px;
+  font-size: 24px;
+  text-shadow: 3px 2px 4px white;
+}
+.btn {
+  position: relative;
+  bottom: 350px;
+  left: 600px;
+}
+
+
+@media (max-width:600px) {
+  h1 {
+    position: relative;
+    bottom: 465px;
+    left: 5px;
+  }
+  .text-dark {
+    position: relative;
+    top: 290px;
+    right: 5px;
+  }
+}
