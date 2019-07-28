@@ -4,6 +4,9 @@
     Author: Alex Munoz
     Author URL: https://alexxest92.github.io/ACA_web101_Alex_Munoz/src/Portfolio/portfolio.html
 */
+header {
+  height: 90%;
+}
 .motel img {
   height: 100%;
   width: 100%;
@@ -11,15 +14,14 @@
 }
 h1 {
   position: relative;
-  bottom: 505px;
+  bottom: 445px;
   left: 190px;
   color: rgb(161,153,191);
   text-shadow: 2px 2px 2px black;
-  text-decoration: bold;
 }
 .text-dark {
   position: relative;
-  top: 385px;
+  top: 335px;
   right: 375px;
   font-size: 24px;
   text-shadow: 3px 2px 4px white;
@@ -29,17 +31,36 @@ h1 {
   bottom: 350px;
   left: 600px;
 }
-
-
+.navbar-nav {
+ font-size: 20px;
+}
+main {
+  padding-top: 30px;
+  height: 100%;
+  width: 100%;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
 @media (max-width:600px) {
   h1 {
     position: relative;
-    bottom: 465px;
-    left: 5px;
+    bottom: 420px;
+    left: 50px;
+    color: black;
+    text-shadow: 4px 4px 4px rgb(161,153,191);
   }
   .text-dark {
     position: relative;
-    top: 290px;
-    right: 5px;
+    top: 265px;
+    right: 30px;
+    font-size: 20px;
   }
+  .btn {
+    position: relative;
+    bottom: 360px;
+    left: 160px;
+}
+h2 {
+  position: relative;
+  left: 100px;
+}
 }
