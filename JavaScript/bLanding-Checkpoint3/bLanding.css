@@ -42,8 +42,8 @@ main {
 }
 .circle2 {
   position: relative;
-  bottom: 275px;
-  left: 100px;
+  bottom: 310px;
+  left: 110px;
 }
 .three{
   position: relative;
@@ -56,6 +56,11 @@ main {
 .five {
   position: relative;
   left: 120px;
+}
+.elements {
+  position: relative;
+  bottom: 350px;
+  left: 70px;
 }
 @media (max-width:600px) {
   h1 {
@@ -79,5 +84,40 @@ main {
 h2 {
   position: relative;
   left: 100px;
+}
+.circle1 {
+  position: relative;
+  left: 100px;
+}
+.circle2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 1025px;
+
+}
+.one {
+  position: relative;
+  bottom: 200px;
+  left: 130px;
+}
+.two {
+  position: relative;
+  bottom: 135px;
+  left: 85px;}
+.three{
+  position: relative;
+  bottom: 75px;
+  left: 86px;
+}
+.four {
+  position: relative;
+  bottom: 15px;
+  left: 112px;
+}
+.five {
+  position: relative;
+  top: 45px;
+  left: 90px;
 }
 }
