@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="./bLanding.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./animate.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>$(Austin).alex(design()</title>
 </head>
 <body>
@@ -127,16 +128,108 @@
         <p class="center5-1">Visuals</p>
     </div>
   </section>
-
- <section class="team">   
+  <!-- The Team li through DOM - code in JS -->
+ <section class="team" id="team">   
     <h2 class="text-sm-center display-4 pb-4"> ${The.dream}Team</h2>
 
       <div class="row">
        
       </div>
    </section>
- 
-  
+  <!-- Contact Form -->
+   <article class="form" id="contact">
+      <h2 class="text-sm-center display-4 pb-4">Contact Us</h2>
+
+   <div class="row justify-content-center">
+      <div class="col-lg-3 col-md-4">
+        <div class="info">
+          <div class="address fa-lg d-flex">
+            <i class="fa fa-map-marker p-1"></i>
+            <p class="pl-2">701 Brazos St. Unit 1600<br>Austin, TX, 78701</p>
+          </div>
+
+          <div class="email fa-lg d-flex p-1">
+            <i class="fa fa-envelope"></i>
+            <p class="pl-2">anmunoz24@gmail.com</p>
+          </div>
+
+          <div class="phone fa-lg d-flex p-1">
+            <i class="fa fa-phone"></i>
+            <p class="pl-2">(915)920-8180</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-5 col-md-8">
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+      </div>
+    </article>
+    </div>
+
+   <!-- Footer w/links -->
+        <div class="footer">
+            <div class="container">
+              <div class="row">
+      
+                <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+                  <p class="copyright-text">
+                    ©.aTX(Design)
+                  </p>
+                </div>
+      
+                <div class="col-lg-6 col-xs-12 text-lg-right text-center">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="index.html">Home</a>
+                    </li>
+      
+                    <li class="list-inline-item">
+                      <a href="#about">About Us</a>
+                    </li>
+      
+                    <li class="list-inline-item">
+                      <a href="#features">Features</a>
+                    </li>
+      
+                    <li class="list-inline-item">
+                      <a href="#team">The Team</a>
+                    </li>
+      
+                    <li class="list-inline-item">
+                      <a href="#contact">Contact Us</a>
+                    </li>
+    
+                  </ul>
+                </div>
+      
+              </div>
+            </div>
+          </div>    
+        </div>
+
 
 <script src="./bLanding.js"></script> 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
