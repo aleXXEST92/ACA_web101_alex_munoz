@@ -24,8 +24,12 @@ h1 {
   color: rgb(161,153,191);
   text-shadow: 2px 2px 2px black;
 }
+h2 {
+  text-shadow: 2px 2px 2px rgb(161,153,191);
+}
 h3 {
-  text-shadow: 3px 2px 4px rgb(161,153,191);
+  
+  text-shadow: 2px 2px 2px rgb(161,153,191);
 }
 .btn {
   position: relative;
@@ -50,7 +54,8 @@ main {
   opacity: .8;
 }
 .features{
-  background-color: rgb(236, 234, 234)
+  height: 80%;
+  background-color: rgb(236, 234, 234);
 }
 .circle2 {
   position: relative;
@@ -72,36 +77,48 @@ main {
 .elements {
   position: relative;
   bottom: 310px;
-  left: 110px;
+  left: 100px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  color: rgb(175, 106, 175);
+  text-shadow: 1px 1px 1px white;
 }
 .center2 {
-  padding-left: 220px;
+  padding-left: 175px;
 }
 .center3 {
-  padding-left: 210px;
+  padding-left: 185px;
 }
 .center4 {
-  padding-left: 210px;
+  padding-left: 175px;
 }
 .center5 {
-  padding-left: 220px;
+  padding-left: 185px;
 }
 .components {
   position: relative;
-  bottom: 430px;
-  left: 163px;
+  bottom: 450px;
+  left: 155px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(175, 106, 175);
+  text-shadow: 1px 1px 1px black;
 }
 .center2-1 {
-  padding-left: 225px;
+  padding-left: 205px;
 }
 .center3-1 {
-  padding-left: 225px;
+  padding-left: 215px;
 }
 .center4-1 {
-  padding-left: 203px;
+  padding-left: 185px;
 }
 .center5-1 {
-  padding-left: 215px;
+  padding-left: 205px;
+}
+.team {
+  padding: 49px;
+  background-color: rgb(236, 234, 234)
 }
 @media (max-width:1335px) {
   h1 {
@@ -162,46 +179,46 @@ left: 250px;
 .elements {
   flex-direction: column;
   position: relative;
-  bottom: 1910px;
-  left: 365px;
+  bottom: 1920px;
+  left: 355px;
 }
 .center2 {
-  padding-top: 190px;
+  padding-top: 180px;
   padding-left: 5px;
 }
 .center3 {
-  padding-top: 190px;
+  padding-top: 180px;
   padding-left: 5px;
 }
 .center4 {
-  padding-top: 190px;
-  padding-left: 5px;
+  padding-top: 175px;
+  padding-left: 0px;
 }
 .center5 {
-  padding-top: 190px;
+  padding-top: 175px;
   padding-left: 5px;
 }
 .components {
   flex-direction: column;
   position: relative;
-  bottom: 2950px;
-  left: 435px;
+  bottom: 2975px;
+  left: 425px;
 }
 .center2-1 {
   padding-top: 195px;
-  padding-left: 35px;
+  padding-left: 45px;
 }
 .center3-1 {
-  padding-top: 190px;
-  padding-left: 20px;
+  padding-top: 180px;
+  padding-left: 25px;
 }
 .center4-1 {
-  padding-left: 20px;
-  padding-top: 195px;
+  padding-left: 23px;
+  padding-top: 185px;
 }
 .center5-1 {
-  padding-top: 190px;
-  padding-left: 25px;
+  padding-top: 185px;
+  padding-left: 30px;
 }
 }
 @media (max-width:950px) {
@@ -221,6 +238,9 @@ height: 56%;
 h3 {
   display: none;
 }
+.features {
+  height: 235%;
+}
 .circle1 {
   position: relative;
   left: 100px;
@@ -235,29 +255,32 @@ h3 {
 .elements {
   flex-direction: column;
   position: relative;
-  bottom: 1910px;
-  left: 215px;
+  bottom: 1920px;
+  left: 200px;
 }
 .components {
   flex-direction: column;
   position: relative;
-  bottom: 2950px;
-  left: 295px;
+  bottom: 2975px;
+  left: 285px;
 }
 .center2-1 {
-  padding-top: 195px;
-  padding-left: 35px;
+  padding-top: 190px;
+  padding-left: 42px;
 }
 .center3-1 {
-  padding-top: 190px;
-  padding-left: 20px;
+  padding-top: 185px;
+  padding-left: 25px;
 }
 .center4-1 {
-  padding-left: 25px;
-  padding-top: 195px;
+  padding-left: 24px;
+  padding-top: 185px;
 }
 .center5-1 {
-  padding-top: 190px;
+  padding-top: 185px;
   padding-left: 30px;
+}
+.row {
+  padding-left: 75px;
 }
 }
