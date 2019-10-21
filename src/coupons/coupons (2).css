@@ -1,0 +1,300 @@
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height:100%;
+  width: 100%;;
+  padding: 30px;
+}
+
+.title {
+  border: 2px solid red;
+  height: 20%;
+  width: 80%;
+  display: inline-grid;
+}
+.titlegrid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 80% 20%;
+}
+.cookie {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color:white;
+}
+img>cookie {
+  display: flex;
+}
+.techfood>h1 {
+  font-size: 80px;
+  text-align: center;
+  color:black;
+  font-family: verdana;
+}
+.techfood>p {
+  font-size: 15px;
+  text-align: center;
+  color:black;
+  align-content: space-between;
+}
+.techfood {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: white;
+}
+.offer>p {
+  font-size: 13px;
+  align-content: space-between;
+  color:black;
+  font-family: 'Segoe UI';
+  font-family: verdana;
+}
+.offer {
+  grid-column: 1/3;
+  grid-row: 2/2;
+  background-color:white;
+}
+.sale {
+  border: 2px solid green;
+  height: 20%;
+  width: 20%;
+  display: inline-grid;
+  float: right;
+}
+.salegrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 60% 40%;
+}
+.save>p {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-family: verdana;
+}
+.save {
+  grid-row: 1/2;
+  background-color:rgb(195,49,87);
+}
+.ex>p {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-family: verdana;
+}
+.ex {
+  grid-row: 2/2;
+  background-color:rgb(69,175,189);
+}
+.main {
+  border: 2px solid rgb(233, 51, 233);
+  height: 60%;
+  width: 80%;
+  display: inline-grid;
+}
+.main1grid {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: auto;
+  height: 100%;
+}
+.mango {
+  background-color: blue;
+  background: url("mango.jpg.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  padding-bottom: 0px;
+}
+.mangotext>p {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: verdana;
+
+}
+.mangoprice {
+  font-family: verdana;
+  background-color: rgb(195,49,87);
+}
+.junk>h1 {
+  color: white;
+  font-family: verdana;
+}
+.junk>p {
+  color:white;
+  font-family: verdana;
+}
+.junk {
+  grid-column: 2/3;
+  background-color: rgb(69,175,189);
+}
+.cheetos {
+  grid-column: 3/3;
+  background-color: grey;
+  background: url("chips.jpg.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
+  padding-bottom: 2px;
+}
+.cheetos div:nth-child(4) {
+  text-align: center;
+  border: 2px solid rgb(255,212,34);
+  background-color: white;
+  font-size: 25px;
+  font-family: verdana;
+}
+.cheetos div:nth-child(5) {
+  font-size: 15px;
+  padding: 10px;
+  font-family: verdana;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.cheetos div:nth-child(6) {
+  text-align: center;
+  border: 2px solid rgb(255,212,34);
+  background-color: rgb(255,212,34);
+  font-size: 8px;
+  font-family: verdana;
+  
+}
+.cheetos p:nth-child(1) {
+  font-size: 20px;
+  font-weight: bold;
+}
+.cheetos p:nth-child(2) {
+  font-size: 18px;
+}
+.main2grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+  height: 100%;
+}
+.tea {
+  grid-column: 1/2;
+  background-color: lightseagreen;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 75% 25%;
+  background: url(./tea.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 15px;
+}
+
+.nuts {
+  grid-column: 2/3;
+  background-color: peachpuff;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 35% 35% 30%;
+  background: url(./nuts\ .png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nuts div:nth-child(4) {
+  font-family: verdana;
+  background-color: rgb(195,49,87);
+}
+.nuts div:nth-child(6) {
+text-align: center;
+background-color: rgb(255,212,34);
+font-size: 8px;
+font-family: verdana;
+}
+.yogurt {
+  grid-column: 3/4;
+  background-color: lightcyan;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 35% 35% 30%;
+  background: url();
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mnm {
+  grid-column: 4/4;
+  background-color: lightgreen;
+}
+.sidebar {
+  border: 2px solid blue;
+  height: 60%;
+  width: 20%;
+  float: right;
+}
+.sidebargrid {
+  display: inline-grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(3, 1fr);
+  height: 100%;
+  width: 100%;
+}
+.wine {
+  grid-row: 1/2;
+  background-color: khaki;
+}
+.ben {
+  grid-row: 2/3;
+  background-color: royalblue;
+}
+.ramen {
+  grid-row: 3/3;
+  background-color:yellow;
+}
+.footer {
+  border: 2px solid black;
+  height: 20%;
+  width: 100%;
+  display: inline-grid;
+  max-height: 20%;
+  max-width: 100%;
+}
+.footergrid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+}
+.caffeine {
+  grid-column: 1/2;
+  background-color: rgb(69,175,189);
+}
+.coffee {
+  grid-column: 2/3;
+  background-color: maroon;
+}
+.cola {
+  grid-column: 3/4;
+  background-color: seagreen;
+}
+.monster {
+  grid-column: 4/4;
+  background-color: white;
+  display: flex;
+}
+.monstergrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 70% 30%;
+}
+.mtext {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.mprice {
+  grid-column: 2/3;
+  grid-row: 2/3
+}
